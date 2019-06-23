@@ -1,0 +1,23 @@
+{
+  "name": "noaa-metar",
+  "version": "1.0.1",
+  "description": "Fetches NOAA Metar and TAF information for designated ICAO location",
+  "main": "index.js",
+  "keywords": [
+    "noaa",
+    "weather",
+    "metar",
+    "taf"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/troussos/noaa-metar.git"
+  },
+  "author": "Tyler Roussos <tylerroussos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "xml2json": "^0.11.2"
+  }
+}
