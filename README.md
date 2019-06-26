@@ -33,9 +33,9 @@ $ yarn add noaa-metar
 ### Usage
 There are three methods that the library exposes. Each method takes the following two parameters. the methods are:
 
-- getMETAR(ICAOCode, hoursBack): Gets MERTARs for ICAO coded location
-- getTAF(ICAOCode, hoursBack): Gets TAFs for ICAO coded location
-- getAirportWeather(ICAOCode, hoursBack): Gets both METARs and TAFS for ICAO coded location
+- `getMETAR(ICAOCode, hoursBack)`: Gets MERTARs for ICAO coded location
+- `getTAF(ICAOCode, hoursBack`): Gets TAFs for ICAO coded location
+- `getAirportWeather(ICAOCode, hoursBack)`: Gets both METARs and TAFS for ICAO coded location
 
  And the definition of the parameters
 
